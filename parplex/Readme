@@ -1,0 +1,8 @@
+This directory contains:
+- the parplex source code
+- a Windows binary installer for Python 2.6
+
+To install from source unpack the source code and enter the command
+'python setup.py install' in the source directory. 
+
+Use 'python setup.py --help' for more build and installation options.

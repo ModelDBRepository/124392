@@ -1,0 +1,16 @@
+These are source files to generate the data in Figure 5 from
+"Modeling predicts that epilepsy may be caused by very small functional changes 
+in ion channels" Thomas EA, Reid CA, Petrou S, Archives of Neurology (2009)
+
+Intructions:
+1) Build and install parplex (see Readme in the parplex directory)
+2) python aradi.py
+3) python mkdll.py Exp2Syn.c
+4) python fig6.py
+
+This will produce a number of ap*.dat. The columns of these files are:
+Cellno APtime Celltype. You can use the enclosed Matlab scripts to plot them.
+
+Any questions? Email me evan@evan-thomas.net.
+
+
